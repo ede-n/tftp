@@ -1,0 +1,19 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility = 1.8
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    compile 'net.jcip:jcip-annotations:1.0'
+    compile 'org.apache.commons:commons-lang3:3.3.2'
+    compile 'com.google.guava:guava:17.0'
+    compile 'javax:javaee-api:6.0'
+
+    testCompile 'junit:junit:4.11'
+}
